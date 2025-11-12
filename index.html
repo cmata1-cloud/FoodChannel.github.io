@@ -1,9 +1,26 @@
-<html>
-  <body>
-    <div>
-      <button>click me</button>
-      
-      <script src="app.js"></script>
-    </div>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallup Community</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="top-bar">
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search..." />
+    <button id="searchBtn">🔍</button>
+  </div>
+</div>
+
+<!-- Search results will show here -->
+<div id="searchResults"></div>
+</body>
 </html>
