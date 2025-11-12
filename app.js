@@ -1,5 +1,5 @@
 const btn = document.querySelector('button');
 
-btn.onclick = function() => {
-  alert('you fat fuck')
+btn.onclick = () => {
+  alert('you submission has been sent')
 }
